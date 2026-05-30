@@ -12,6 +12,14 @@ SnapMog is independent and is not affiliated with, endorsed by, or sponsored by 
 
 This repository is the public home for product feedback, issue reports, roadmap notes, support guidance, and community discussion. It does not contain the private production source code for the live website.
 
+## Product Preview
+
+![SnapMog homepage](assets/screenshots/homepage.png)
+
+| Leaderboard | Live Duel Beta |
+| --- | --- |
+| ![SnapMog leaderboard](assets/screenshots/leaderboard.png) | ![SnapMog Live Duel Beta](assets/screenshots/live-duel.png) |
+
 ## Product Focus
 
 - Players searching for private Omoggle-style camera duels
