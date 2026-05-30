@@ -1,25 +1,28 @@
 # Contributing
 
-Thanks for helping improve SnapMog's public product surface.
+Thanks for helping improve SnapMog. This repository is focused on public product feedback, documentation, roadmap discussion, and issue tracking for [snapmog.com](https://snapmog.com).
 
-## Before You Open An Issue
+## Good Contributions
 
-- Search existing issues first.
-- Keep private account, payment, identity, and camera media details out of public threads.
-- Remember that SnapMog is independent and is not affiliated with Omoggle.
+- Blind Snapshot Duel issues around capture, scoring, queueing, or result clarity
+- Solo Camera Score feedback around framing, lighting, sharpness, and presence wording
+- Live Duel Beta feedback that respects the optional and age-gated product boundary
+- Independence, safety, pricing, leaderboard, or profile-surface clarity issues
 
-## Issue Quality
+## How To File Feedback
 
-Useful reports include:
+- Search existing issues before opening a new one.
+- Use a clear title that names the affected page or workflow.
+- Include steps to reproduce, expected behavior, actual behavior, and any safe sample input.
+- Keep screenshots and recordings free of private account, payment, uploaded-media, or personal data.
 
-- Page URL
-- What you expected
-- What happened instead
-- Device and browser details when relevant
-- Screenshots only when they do not expose private data
+## Product Boundaries
+
+- Do not call SnapMog official Omoggle, Omoggle 2.0, or endorsed by Omoggle.
+- Do not claim scores are scientific, biometric, medical, identity, or objective attractiveness assessments.
+- Do not claim snapshot scoring is no-upload or purely local.
+- This repository is for public product feedback, not private production source code.
 
 ## Pull Requests
 
-Pull requests should stay focused on public docs, metadata, and repository housekeeping. Do not copy production website source code into this repository.
-
-By contributing, you agree to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
+This repository does not accept pull requests for the private production application. Documentation-only pull requests may be considered when they improve public support, roadmap clarity, or issue-report quality.

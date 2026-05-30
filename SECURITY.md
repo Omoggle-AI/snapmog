@@ -1,30 +1,23 @@
 # Security Policy
 
-Please do not open public issues for security vulnerabilities.
+## Reporting A Vulnerability
 
-## Reporting
+Please do not open public issues for security reports. Email support@snapmog.com with a concise description, affected URL, reproduction steps, and any evidence that helps us verify impact.
 
-If you find a vulnerability involving snapmog.com, camera access, authentication, billing, or private user data, send a private report through GitHub Security Advisories when available.
+## In Scope
 
-Include:
+- Blind Snapshot Duel issues around capture, scoring, queueing, or result clarity
+- Solo Camera Score feedback around framing, lighting, sharpness, and presence wording
+- Live Duel Beta feedback that respects the optional and age-gated product boundary
+- Public website behavior that could expose user data, account state, payment state, uploaded content, or private workflow information
 
-- Affected URL or feature
-- Reproduction steps
-- Impact
-- Whether private media, identity, payment, or account data may be involved
+## Out Of Scope
 
-Do not include secrets, private user data, or unrelated system access in the report.
+- Social engineering, spam, or automated high-volume testing
+- Reports that require destructive testing against production systems
+- Generic scanner output without a practical impact explanation
+- Private production source code, deployment secrets, or provider credentials, which are not published in this repository
 
-## Scope
+## Public Disclosure
 
-In scope:
-
-- snapmog.com website behavior
-- Public product flows
-- Documentation that could cause unsafe use
-
-Out of scope:
-
-- Social engineering
-- Denial-of-service testing without prior permission
-- Reports that require compromised credentials
+Give us time to investigate and address confirmed issues before publishing details. We may ask for clarification or a narrower reproduction if the report includes sensitive data.

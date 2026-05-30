@@ -1,9 +1,11 @@
 # Changelog
 
-All notable public repository changes will be documented here.
-
 ## 2026-05-30
 
-- Created the public feedback and roadmap repository for SnapMog.
-- Added issue templates, support policy, security policy, and contribution guidelines.
-- Added a public organization profile entry for Omoggle AI / SnapMog.
+- Reworked the public repository documentation around SnapMog's actual product scope.
+- Updated roadmap, support, security, and contribution guidance for snapmog.com.
+- Clarified that this repository is a public feedback and product-information home, not the private production source tree.
+
+## 2026-05-29
+
+- Created the official public repository structure.

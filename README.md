@@ -1,49 +1,53 @@
-# SnapMog
-
 <p align="center">
-  <img src="./assets/snapmog-logo.png" alt="SnapMog logo" width="128" />
+  <a href="https://snapmog.com">
+    <img src="assets/snapmog-logo.png" alt="SnapMog logo" width="112" />
+  </a>
 </p>
 
-This is the official public feedback and roadmap repository for [snapmog.com](https://snapmog.com), maintained under the Omoggle AI organization.
+# SnapMog
 
-SnapMog is a privacy-first, Omoggle-style camera duel product. It starts with snapshot-first duels so people can play without going live, while leaving live 1v1 as an optional mode for users who want it.
+Official public repository for [snapmog.com](https://snapmog.com). SnapMog is an Omoggle-style camera duel product where players start with one snapshot, receive entertainment-oriented camera feedback, and keep live 1v1 optional.
 
 SnapMog is independent and is not affiliated with, endorsed by, or sponsored by Omoggle.
 
-This repository is intentionally not a copy of the production website source code. It is a public home for feedback, documentation issues, roadmap notes, and support routing.
+This repository is the public home for product feedback, issue reports, roadmap notes, support guidance, and community discussion. It does not contain the private production source code for the live website.
 
-## What belongs here
+## Product Focus
 
-- Website feedback for snapmog.com
-- Blind Snapshot Duel product feedback
-- Omoggle alternative page corrections
-- Privacy and safety wording improvements
-- Roadmap discussion for public SnapMog features
-- Public support questions that do not include private account details
+- Players searching for private Omoggle-style camera duels
+- Users who want a lower-pressure snapshot flow before live exposure
+- People warming up with solo camera presentation feedback
+- Creators studying score-first social camera game mechanics
 
-## What does not belong here
+## Main Workflows
 
-- Private account, payment, or identity details
-- Camera images or user-submitted private media
-- Security reports with exploit details
-- Pull requests that copy the production application source
-- Claims implying SnapMog is the official Omoggle service
+- Start a Blind Snapshot Duel from one camera snapshot.
+- Use Solo Camera Score for framing, lighting, sharpness, and presence feedback.
+- Join a score-first duel queue before opponent photos become central.
+- Choose optional Live Duel Beta only after an 18+ confirmation gate.
+- Review leaderboard and claimed profile surfaces for score-first results.
 
-## Useful Links
+## What To Open Here
+
+- Blind Snapshot Duel issues around capture, scoring, queueing, or result clarity
+- Solo Camera Score feedback around framing, lighting, sharpness, and presence wording
+- Live Duel Beta feedback that respects the optional and age-gated product boundary
+- Independence, safety, pricing, leaderboard, or profile-surface clarity issues
+
+## Repository Boundary
+
+- Public issues and discussions are welcome when they improve the live product experience.
+- Do not post private account data, secrets, payment details, uploaded personal media, or sensitive logs.
+- Production application code, provider credentials, billing configuration, and deployment secrets are not published here.
+- Security reports should follow [SECURITY.md](SECURITY.md) instead of public issues.
+
+## Official Links
 
 - Website: [snapmog.com](https://snapmog.com)
-- Issues: [Report feedback](https://github.com/Omoggle-AI/snapmog/issues)
-- Discussions: [Product discussion](https://github.com/Omoggle-AI/snapmog/discussions)
-- Support: [Support policy](./SUPPORT.md)
-- Security: [Responsible disclosure](./SECURITY.md)
+- Roadmap: [ROADMAP.md](ROADMAP.md)
+- Support: [SUPPORT.md](SUPPORT.md)
+- Security: [SECURITY.md](SECURITY.md)
 
-## Current Focus
+## Support
 
-- Make the "Omoggle-style duels without going live" promise obvious.
-- Keep snapshot-first and live-optional modes clearly separated.
-- Keep privacy and safety expectations visible before users open the camera.
-- Collect recurring product feedback in a public place.
-
-## Contributing
-
-Small documentation fixes, factual corrections, and clear product feedback are welcome. Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening an issue or pull request.
+For product questions, use GitHub issues when the topic can be public. For account, billing, abuse, privacy, or security-sensitive questions, email support@snapmog.com.
