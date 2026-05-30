@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support
+    url: mailto:support@snapmog.com
+    about: Use email for account, payment, identity, or private media questions.
+  - name: Security report
+    url: https://github.com/Omoggle-AI/snapmog/security/advisories/new
+    about: Report vulnerabilities privately instead of opening a public issue.

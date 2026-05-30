@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible public website issue.
+title: "[Bug]: "
+labels: ["type: bug", "status: needs triage"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://snapmog.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps without including private account or media data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on Android, Safari on iPhone, etc.
+    validations:
+      required: false

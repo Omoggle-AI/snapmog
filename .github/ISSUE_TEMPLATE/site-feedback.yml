@@ -1,0 +1,26 @@
+name: Site feedback
+description: Report a problem with snapmog.com content or navigation.
+title: "[Site]: "
+labels: ["type: content", "status: needs triage"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://snapmog.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should be changed?
+      description: Describe the incorrect, unclear, or missing content.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add links or screenshots when helpful. Do not include private media or account data.
+    validations:
+      required: false
